@@ -2,6 +2,7 @@ class Counter:
     count=0
 
     def __init__(self): #init constructor method hai jo har baar call hota hai jab hum Counter class ka naya object banate hain.
+        # self refers to the instance (object) being created.
         Counter.count+=1
 
     @classmethod  #@classmethod decorator hai jo display_count method ko class method banata hai.
