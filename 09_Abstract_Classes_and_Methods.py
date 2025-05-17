@@ -12,3 +12,6 @@ class Rectangle(Shape):
 
     def area(self):
         return self.length * self.width
+    
+rect = Rectangle(5,10)
+print(f"Area of rectangle: {rect.area()}") 
